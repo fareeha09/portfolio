@@ -25,6 +25,7 @@
 <p> Contact: fareehatabassum1@gmail.com </p>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+ /*
 <div class="card effect__EFFECT">
   <div class="card__front">
     <span class="card__text">front</span>
@@ -33,21 +34,8 @@
     <span class="card__text">back</span>
   </div>
 </div><!-- /card -->
+ */
  
- (function() {
-  var cards = document.querySelectorAll(".card.effect__click");
-  for ( var i  = 0, len = cards.length; i < len; i++ ) {
-    var card = cards[i];
-    clickListener( card );
-  }
-
-  function clickListener(card) {
-    card.addEventListener( "click", function() {
-      var c = this.classList;
-      c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
-    });
-  }
-})();
-                                                
+                                         
 </body>
 </html>
