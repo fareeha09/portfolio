@@ -1,1 +1,1 @@
-windows.alert("You are about to enter a world of chaos");
+window.alert("You are about to enter a world of chaos");
