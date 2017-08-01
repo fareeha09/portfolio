@@ -9,3 +9,4 @@ if (counter%2=0){
   //document.getElementById("image").src = "http://www.nicoleisthenewblack.com/wp-content/uploads/2011/09/vintage-hand-about-me.png";
 }
 counter+=1
+}
