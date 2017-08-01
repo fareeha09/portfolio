@@ -1,7 +1,7 @@
 window.alert("You are about to enter a world of chaos");
 
 function changePic() {
-var counter=1;
+var counter=0;
 if (counter%2=0){
   document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pic_de_neige_cordier_Face_E.jpg";
 } else {
