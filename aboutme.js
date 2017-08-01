@@ -8,5 +8,5 @@ function changePic() {
     document.getElementById("image").src = "static.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg";
   //document.getElementById("image").src = "http://www.nicoleisthenewblack.com/wp-content/uploads/2011/09/vintage-hand-about-me.png";
   }
-  counter+=1
+  counter+=1;
 }
